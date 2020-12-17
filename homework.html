@@ -1,0 +1,785 @@
+<html>
+  <head>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <meta charset="utf-8">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.one{
+			background-color: #d8ac9c;
+			width: 100%;
+			height: 50px;
+			display: inline-block;
+			padding: 10px;
+			position: relative;
+		}
+		.one a{
+			text-decoration: none;
+			
+		}
+		.one a{
+			padding: 5px;
+			font-size: 20px;
+			font-weight: bold;
+			margin: 25px;
+			color: #8f384d;
+		}
+		.one a:hover{
+			background-color: antiquewhite;
+		}
+		.fa{
+            margin: 10px;
+			
+         }
+         .fa-youtube-square {
+               font-size: 30px;
+             color: red;
+			 position: absolute;
+			right: 15px;
+         }
+         .fa-facebook-square{
+             font-size: 30px;
+             color: blue;
+			 position: absolute;
+			right: 65px;
+		}
+		 .fa-instagram{
+             font-size: 30px;
+             color: firebrick;
+			 position: absolute;
+			right: 115px;
+		}
+		.two {
+			background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(image/1.jpg);
+   background-size: cover;
+			width: 100%;
+			height: 500px;
+			position: relative;
+		}
+		.two a{
+			color:#ffdada;
+		   text-decoration: none;
+		}
+		.two .a a{
+			position: absolute;
+			right: 35px;
+			top: 25px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.two b a{
+			position: absolute;
+			right: 175px;
+			top: 25px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.two .b{
+			position: absolute;
+			right: 300px;
+			top: 25px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.two h1{
+			color: #ffdada;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 50px;
+			left: 150px;
+		}
+		.two h2{
+			color: #ffdada;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 90px;
+			left: 150px;
+		}
+		.two p{
+			font-size: 15px;
+			color: #f8f7de;
+			position: absolute;
+			top: 165px;
+			left: 200px;
+		}
+		.two .aa{
+			color: #ffdada;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 200px;
+			left: 200px;
+		}
+		.two .bb{
+			color: #ffdada;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 230px;
+			left: 200px;
+		}
+		.two .pp{
+			font-size: 15px;
+			color: #f8f7de;
+			position: absolute;
+			top: 265px;
+			left: 200px;
+		}
+		.two .ppp{
+			font-size: 15px;
+			color: #f8f7de;
+			position: absolute;
+			top: 285px;
+			left: 200px;
+		}
+		.two .pppp{
+			font-size: 15px;
+			color: #f8f7de;
+			position: absolute;
+			top: 300px;
+			left: 200px;
+		}
+		.two button{
+			padding: 10px;
+			background-color: #d8ac9c;
+			border-radius: 20px;
+			position: absolute;
+			top: 330px;
+			left: 200px;
+		}
+		.two button:hover{
+			background-color: antiquewhite;
+		}
+		.three{
+			height: 100px;
+			background-color: #d8ac9c;
+			position: relative;
+		}
+		.three p{
+			color:  #8f384d;
+			font-size: 20px;
+			font-weight: bold;
+			position: absolute;
+			top: 30px;
+			left: 200px;
+		}
+		.three b{
+			color:  #8f384d;
+			font-size: 20px;
+			
+			position: absolute;
+			top: 50px;
+			left: 200px;
+		}
+		.three  button{
+			padding: 10px;
+			background-color: #d8ac9c;
+			border-radius: 20px;
+			position: absolute;
+			top: 40px;
+			right: 200px;
+		}
+		.three button:hover{
+			background-color: antiquewhite;
+		}
+		.four{
+			width: 100%;
+			height: 650px;
+			position: relative;
+		}
+		.four h1{
+			color: black;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 40px;
+			left: 570px;
+		}
+		.four h2{
+				color: #8f384d;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 40px;
+			left: 700px;
+		
+		}
+		.four b{
+			color:  black;
+			font-size: 20px;
+			position: absolute;
+			top: 70px;
+			left: 550px;
+		}
+		.four .four4{
+			width: 22%;
+			height: 450px;
+			background-color:  #ffe3d8;
+			position: absolute;
+			top: 150px;
+			right: 0;
+			text-align: center;
+		}
+		.four4 img{
+			background-size: cover;
+			width: 300px;
+		}
+		.four4 .aaa{
+			font-size: 40px;
+			font-weight: bold;
+			color: #222831;
+			margin: 10px;
+		}
+		.four4 p{
+			font-size: 20px;
+			font-weight: bold;
+			color: #222831;
+		}
+		.four4 button{
+			padding: 10px;
+			background-color: #222831;
+			color: antiquewhite;
+			border-radius: 20px;
+			margin: 10px;
+		}
+		.four4 button:hover{
+			background-color: brown;
+		}
+		.four4menu{
+			width: 22%;
+			height: 450px;
+			background-color:  #ffe3d8;
+			position: absolute;
+			top: 150px;
+			right: 350px;
+			text-align: center;
+		}
+		.four4menu img{
+			background-size: cover;
+			width: 300px;
+		}
+		.four4menu .aaa{
+			font-size: 40px;
+			font-weight: bold;
+			color: #222831;
+			margin: 10px;
+		}
+		.four4menu p{
+			font-size: 20px;
+			font-weight: bold;
+			color: #222831;
+		}
+		.four4menu button{
+			padding: 10px;
+			background-color: #222831;
+			color: antiquewhite;
+			border-radius: 20px;
+			margin: 10px;
+		}
+		.four4menu button:hover{
+			background-color: brown;
+		}
+				.four4m{
+			width: 22%;
+			height: 450px;
+			background-color:  #ffe3d8;
+			position: absolute;
+			top: 150px;
+			right: 700px;
+			text-align: center;
+		}
+		.four4m img{
+			background-size: cover;
+			width: 300px;
+		}
+		.four4m .aaa{
+			font-size: 40px;
+			font-weight: bold;
+			color: #222831;
+			margin: 10px;
+		}
+		.four4m p{
+			font-size: 20px;
+			font-weight: bold;
+			color: #222831;
+		}
+		.four4m button{
+			padding: 10px;
+			background-color: #222831;
+			color: antiquewhite;
+			border-radius: 20px;
+			margin: 10px;
+		}
+		.four4m button:hover{
+			background-color: brown;
+		}
+		.five{
+			background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(image/11.jpg);
+   background-size: cover;
+			width: 100%;
+			height: 550px;
+			position: relative;
+		}
+		.five b{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 150px;
+			left: 150px;
+		}
+		.five h1{
+			font-size: 30px;
+			font-weight: bold;
+			color: #fdcfdf;
+			position: absolute;
+			top: 190px;
+			left: 150px;
+		}
+		.five h2{
+			font-size: 20px;
+			color: #9d0191;
+			position: absolute;
+			top: 225px;
+			left: 150px;
+		}
+		.five p{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 270px;
+			left: 150px;
+		}
+		.five .a{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 290px;
+			left: 150px;
+		}
+		.five .aa{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 305px;
+			left: 150px;
+		}
+		.five .aaa{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 350px;
+			left: 150px;
+		}
+		.five .aaaa{
+			font-size: 20px;
+			color: #fdcfdf;
+			position: absolute;
+			top: 370px;
+			left: 150px;
+		}
+		.five button{
+			padding: 10px;
+			border-radius: 20px;
+			font-size: 15px;
+			background-color: #9d0191;
+			color: #fdcfdf;
+			position: absolute;
+			top: 450px;
+			left: 150px;
+		}
+		.five button:hover{
+			background-color: #bc6ff1;
+		}
+		.six{
+			width: 100%;
+			height: 500px;
+			background-color: #efd9d1;
+			position: relative;
+		}
+		.six h1{
+			color: black;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 75px;
+			left: 500px;
+		}
+		.six .a{
+			color: #9d0191;
+			font-size: 30px;
+			font-weight: bold;
+			position: absolute;
+			top: 75px;
+			left: 690px;
+		}
+		.six p{
+			color: black;
+			font-size: 20px;
+			position: absolute;
+			top: 117px;
+			left:500px;
+		}
+		.six .sixm{
+			width: 30%;
+			height: 250px;
+			background-color: #fae0df;
+			position: absolute;
+			top: 200px;
+			left: 200px;
+			text-align: center;
+		}
+		.sixm h3{
+			font-size: 30px;
+			font-weight: bold;
+			color: #333456;
+		
+		}
+		.sixm .b{
+			font-size: 20px;
+			color: #9d0191;
+		}
+		.sixm .c{
+			font-size: 20px;
+			color: #333456;
+			margin: 20px;
+		}
+		.six .sixmenu{
+			width: 30%;
+			height: 250px;
+			background-color: #fae0df;
+			position: absolute;
+			top: 200px;
+			right: 200px;
+			text-align: center;
+		}
+			.sixmenu h4{
+			font-size: 30px;
+			font-weight: bold;
+			color: #333456;
+		
+		}
+		.sixmenu .b{
+			font-size: 20px;
+			color: #9d0191;
+		}
+		.sixmenu .c{
+			font-size: 20px;
+			color: #333456;
+			margin: 20px;
+		}
+		.seven{
+			width: 100%;
+			height: 550px;
+			position: relative;
+		}
+		.seven h5{
+			font-size: 40px;
+			font-weight: bold;
+			position: absolute;
+			top: 75px;
+			left: 500px;
+			color: black;
+		}
+		.seven .ab{
+			font-size: 40px;
+			font-weight: bold;
+			position: absolute;
+			top: 75px;
+			left: 670px;
+			color: #9d0191;
+		}
+		.seven .cb{
+			font-size: 25px;
+			position: absolute;
+			top: 115px;
+			left: 500px;
+			color: black;
+		}
+		.sevenm{
+			width: 70%;
+			height:350px;
+			background-color: #9d0191;
+			position: absolute;
+			top: 200px;
+			left: 250px;
+			border-radius: 10px;
+		}
+		.nn{
+			display: flex;
+			justify-content: space-around;
+			margin: 50px;
+		}
+		.sevenm .vv{
+			width: 70%;
+			height:150px;
+			position: absolute;
+			left: 150px;
+			border-radius: 20px;
+			font-size: 10px;
+			color: black;
+			
+		}
+		.sevenm .vvv{
+			padding: 5px;
+			position: absolute;
+			top: 300px;
+			left: 50%;
+		}
+		.q{
+			width: 100%;
+			height: 500px;
+			background-color: white;
+			margin: 20px 0 0 0;
+			position: relative;
+		}
+		.q img{
+			width: 40%;
+			position: absolute;
+			top: 100px;
+			left: 160px;
+			border-radius: 10px;
+		}
+		.q .w{
+			width: 40%;
+			height: 360px;
+			background-color: #fae0df;
+			position: absolute;
+			top: 100px;
+			right: 108px;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.w h6{
+			font-size: 30px;
+			font-weight: bold;
+			color: black;
+			margin: 20px;
+		}
+		.w p{
+			font-size: 20px;
+			font-weight: bold;
+			color: black;
+			margin: 60px;
+		}
+		.w button{
+			padding: 10px;
+			font-size: 15px;
+			border-radius: 20px;
+		}
+		.w button:hover{
+			background-color: #d35d6e;
+		}
+		footer{
+              background-color: #d35d6e;
+              display: flex;
+              justify-content: space-around;
+              padding: 100px;
+			margin: 20px 0 0 0;
+			position: relative;
+          }
+		.e b{
+			font-size: 30px;
+			position: absolute;
+			top: 50px;
+			left: 150px;
+		}
+		.e .bb{
+			font-size: 20px;
+			position: absolute;
+			top: 100px;
+			left: 150px;
+		}
+		.e .bbb{
+			font-size: 20px;
+			position: absolute;
+			top: 120px;
+			left: 150px;
+		}
+		.e .fa-youtube-square{
+			font-size: 30px;
+			position: absolute;
+			top: 140px;
+			left: 150px;
+		}
+		.e .fa-facebook-square{
+			font-size: 30px;
+			position: absolute;
+			top: 140px;
+			left: 180px;
+		}
+		.ee b{
+			font-size: 30px;
+			position: absolute;
+			top: 50px;
+			left: 40%;
+		}
+		.ee .cc{
+			font-size: 20px;
+			position: absolute;
+			top: 125px;
+			left: 40%;
+		}
+		.eee b{
+			font-size: 30px;
+			position: absolute;
+			top: 50px;
+			right: 150px;
+		}
+		.eee .x{
+			font-size: 20px;
+			position: absolute;
+			top: 100px;
+			right: 190px;
+		}
+		.eee .xx{
+			font-size: 20px;
+			position: absolute;
+			top: 120px;
+			right: 150px;
+		}
+	  </style>
+	</head>
+	<body>
+	<div class="one">
+		<b><a href="">Home</a></b>
+		<b><a href="">About</a></b>
+		<b><a href="">Opject</a></b>
+		
+       <i class="fa fa-youtube-square" aria-hidden="true"></i>
+       <i class="fa fa-facebook-square" aria-hidden="true"> </i>
+       <i class="fa fa-instagram" aria-hidden="true"></i>
+		</div>
+		<section class="two">
+		  <a href="" class="b">Home</a>
+			<b> <a href="" >About</a></b>
+			<b class="a"><a href="">Project</a></b>
+			<h1>FINANCE</h1>
+			<h2>BUSINESS</h2>
+			
+		<p>Neque porro quisquam est qui dolorem ipsum</p>
+			<b class="aa">FINANCAL ANALYSIS</b>
+			<b class="bb">& CONSULTING</b>
+			
+			<p class="pp">It is a long established fact that a reader will be distracted by the
+				readable</p>
+			<p class="ppp">content of a page when looking at its layout. The point of</p>
+				<p class="pppp">using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+			<button> Read More</button>
+		</section>
+		<div class="three">
+		<p>Neque porro quisquam est ?</p>
+			<b>content of a page when looking at its layout. </b>
+		<button>Contect</button>
+		</div>
+		<section class="four">
+		<h1>Financial </h1>
+			<h2>Services</h2>
+			<b>content of a page when looking at its layout. </b>
+			
+			<div class="four4">
+			<img src="image/22.jpg" >
+				<p class="aaa">welcome</p>
+				<p >using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+				<button>to know more</button>
+			</div>
+			
+			<div class="four4menu">
+			<img src="image/33.jpg" >
+				<p class="aaa">welcome</p>
+				<p >using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+				<button>to know more</button>
+			</div>
+			
+			<div class="four4m">
+			<img src="image/44.jpg" >
+				<p class="aaa">welcome</p>
+				<p >using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+				<button>to know more</button>
+			</div>
+			
+		</section>
+		<section class="five">
+		 <b>sed do eiusmod tempor incididunt ut labore. </b>
+			<h1>OUR SOLUTION FOR YOUR</h1>
+			<h2>LOREM IPSUM GENERATOR</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+			<p class="a"> sed do eiusmod tempor incididunt ut </p>
+			<p class="aa">labore et dolore magna aliqua.</p>
+			<p class="aaa">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+			<p class="aaaa">labore et dolore magna aliqua.</p>
+			
+			<button>to know more</button>
+			
+			
+		</section>
+		<section class="six">
+		<h1>What they say</h1>
+			<h1 class="a">aboot us</h1>
+			<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text.</p>
+			<div class="sixm">
+				<h3>Lorem ipsum</h3>
+				<h3 class="b">lipsum as it is sometimes known, is dummy text.</h3>
+				<h3 class="c"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+			</div>
+			<div class="sixm">
+				<h3>Lorem ipsum</h3>
+				<h3 class="b">lipsum as it is sometimes</h3>
+				<h3 class="c"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+			</div>
+			<div class="sixmenu">
+				<h4>Lorem ipsum</h3>
+				<h4 class="b">lipsum as it is sometimes</h3>
+				<h4 class="c"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+			</div>
+		</section>
+		<section class="seven">
+		 <h5>Reauest a</h5>
+			<h5 class="ab">call back</h5>
+			<p class="cb">exercitation ullamco laboris nisi ut.</p>
+			<div class="sevenm">
+				<div class="nn">
+				<input type="text" placeholder="your name" name="yourname"> 
+<input type="email" placeholder="your email" name="youremail">
+				<input type="password" placeholder="your password" name="yourpassword" >
+					</div>
+				<textarea class="vv">Write...</textarea>
+				<input class="vvv" type="button" value="send">
+			</div>
+		</section>
+		<section class="q">
+		  <img src="image/55.jpg">
+			<div class="w">
+			<h6>Get to know about</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+				<button>contect</button>
+			</div>
+		</section>
+		<footer>
+		<div class="e">
+			<b>social</b>
+			<b class="bb">facebook</b>
+			<b class="bbb">youtube</b>
+			 <i class="fa fa-youtube-square" aria-hidden="true"></i>
+       <i class="fa fa-facebook-square" aria-hidden="true"></i>
+		
+			</div>
+			<div class="ee">
+			<b>Email</b>
+				<b class="cc">fatimaalhasan@gmail.com</b>
+			</div>
+			<div class="eee">
+			<b> know more</b>
+				<b class="x">@Duis aute</b>
+				<b class="xx">@Excepteur sint</b>
+			</div>
+		</footer>
+	</body>
+</html>
